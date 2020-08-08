@@ -14,7 +14,7 @@ while True:
         else:
             continue
     while True:
-        print('Is it the primary Color Black?')
+        print('Is the primary Color Black?')
         color = input("Yes or No: ")
         print('Is it smol?')
         size = input("Yes or No: ")
@@ -55,9 +55,10 @@ while True:
         print("I'm Stumped!")
         sleep(1.5)
         print("play again?")
+        
     
     while True:
-        restart = input(":) ")
+        restart = input("")
         if restart.lower() == "yes":
             print("I Win!")
             sleep(1)
